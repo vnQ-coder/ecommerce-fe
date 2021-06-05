@@ -1,0 +1,491 @@
+.cst-form-error {
+    color: #dd4e31
+}
+
+.cst-form-success {
+    color: #3ec12e;
+}
+
+.product-img-size {
+    width: 300px !important;
+    height: 120px !important;
+}
+
+.disabled-shipping-address {
+    background-color: #e4e4e4;
+    pointer-events: none;
+    border: 1px solid #cacaca;
+}
+
+.product__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.product__image, .category__image {
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add__btn {
+    margin-left: 20px;
+}
+
+.btn-minus {
+    margin-left: 10px;
+}
+
+.img__btn {
+    display: flex;
+    align-items: center;
+}
+
+.product__images {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-filter-price-input {
+    width: 46px;
+    font-size: 10pt;
+    height: 20px;
+
+}
+
+input[type=number][class=search-filter-price-input]::-webkit-inner-spin-button,
+input[type=number][class=search-filter-price-input]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cart-qty-input {
+    width: 80px;
+    margin-left: 40px;
+}
+
+.type-field-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.cart__btn {
+    width: 30px;
+    font-size: 22px;
+    background-color: white;
+    border: 1px solid #cacaca;
+    outline: #cacaca;
+}
+
+.no-pointer-event {
+    pointer-events: none;
+}
+
+.private-tag {
+    background: green;
+    padding: 3px;
+    color: #fff;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+.list-view{
+ height: 90vh;
+ overflow: scroll;
+ overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.user-messages-list-body{
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 10px;
+    cursor: pointer;
+}
+.user-messages-list-body:hover{
+    background-color: lightgray;
+}
+
+.user-messages-header {
+    display: flex;
+}
+.user-messages-body{
+    display: flex;
+
+}
+.product-list-box-image {
+   height: 'auto';
+   max-width: 150px;
+}
+
+.question-title{
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.question-topic{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.question-time{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.username{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.message-details-body{
+    border: 1px solid lightgray;
+    height: 90vh;
+
+}
+.message-details-main{
+    overflow: scroll;
+ overflow-x: hidden;
+    height: 80vh;
+    padding: 30px;
+}
+.message-details-footer{
+    border: 1px solid lightgray;
+    height: 10vh;
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+.user-message-heading{
+    background-color: #f6f6f6;
+}
+.admin-send-message{
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+.admin-send-btn{
+    padding: 10px;
+    margin-left: 10px;
+    display: none;
+}
+.admin-message-input{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 20px;
+
+}
+.chat-message
+{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    background:#CFF4F4;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.chat-receiver{
+    margin-left: auto;
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #dcf8dc;
+}
+.chat-timestamp{
+    font-size: xx-small;
+    margin-left: 10px;
+}
+.chat-name{
+    position: absolute;
+    top: -15px;
+    font-size: xx-small;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .question-title{
+
+        font-size: 14px;
+
+    }
+    .question-topic{
+        font-size: 12px;
+
+    }
+    .question-time{
+        font-size: 12px;
+
+    }
+    .username{
+        font-size: 14px;
+
+    }
+
+    .message-details-footer{
+
+        height: 15vh;
+
+    }
+    .message-details-main{
+
+        height: 75vh;
+
+    }
+    .admin-send-message{
+        margin-top: 2px;
+    }
+
+  }
+
+  @media screen and (max-width: 992px) {
+    .question-title{
+
+        font-size: 12px;
+
+    }
+    .question-topic{
+        font-size: 10px;
+
+    }
+    .question-time{
+        font-size: 10px;
+
+    }
+    .username{
+        font-size: 12px;
+
+    }
+    .message-details-footer{
+
+        height: 15vh;
+
+    }
+    .message-details-main{
+
+        height: 75vh;
+
+    }
+    .admin-send-message{
+        margin-top: 2px;
+    }
+  }
+
+  .cargo{
+      border: 1px solid lightgray;
+  }
+  .cargo-body{
+      display: flex;
+      flex-direction: column;
+
+  }
+  .cargo-title{
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin-left : 10px;
+      margin-top : 10px;
+  }
+  .cargo-link{
+      color: blue;
+      margin-left : 10px;
+  }
+  .cargo-btn{
+      width: 200px !important;
+      margin-bottom: 20px;
+      margin-left : 10px;
+  }
+  .display-none{
+      display: none;
+  }
+
+  .cargo-shipnumber{
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin-left : 10px;
+
+  }
+
+  .user-message-detail{
+      margin-top: 40vh;
+  }
+
+  .cargo-detail-form{
+      display: flex;
+      flex-direction: column;
+  }
+  .input-field-cargo{
+      padding: 8px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      width: 400px;
+      border: none;
+
+  }
+  .input-field-cargo:focus {
+    outline : none !important;
+  }
+  .cargo-label{
+      width: 100px;
+  }
+  .dropdown-changeStatus{
+      width: 200px;
+      padding : 10px;
+      margin-right: 10px;
+  }
+  .change-status-body{
+      text-align: center;
+  }
+
+  .cell-padding-search-product{
+      padding-top: 70px !important;
+  }
+
+  .ckeditor-list ul{
+     list-style-type: disc !important;
+}
+.ckeditor-list ol{
+    list-style-type: decimal !important;
+}
+
+.ckeditor-list li {
+    margin-left: 30px !important;
+}
+
+.input-field-search{
+    height: 40px !important;
+    border-radius: 5px;
+    border : none;
+}
+.input-field-search-select{
+    height: 42px !important;
+    border-radius: 5px;
+    padding-left: 10px;
+    border : none;
+}
+.input-field-search-select:focus{
+    outline : none;
+}
+
+.card-border{
+    border-radius: 7px;
+}
+
+.input-field-textarea{
+    border-radius: 5px;
+    border: none;
+}
+.card-header-border{
+    border-top-left-radius: 7px !important;
+    border-top-right-radius: 7px !important;
+}
+
+.btn-form-search{
+    padding: 10px;
+    width: 120px;
+    font-weight: 600;
+    border : 1px solid black;
+    border-radius: 4px;
+}
+
+.guide-title{
+    font-size: 18px !important;
+    font-weight: 700 !important ;
+}
+.guide-description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+@media screen and (max-width: 1090px) {
+    .guide-title{
+        font-size: 15px !important;
+        font-weight: 700 !important;
+    }
+    .guide-description{
+        font-size: 12px !important;
+    }
+    .card-border-top{
+        height : 380px;
+    }
+}
+.card-border-top{
+    height : 350px;
+    border-radius: 5px;
+}
+
+.guide-image{
+    height: 150px;
+    opacity: 0.8;
+}
+.guide-image:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+.ratings-container .ratings:before {
+    color: #FD5B5A;
+}
+
+.shipping-addresses , .user-info{
+    padding: 20px;
+    background-color: #fafaf7 !important;
+    border-radius: 5px;
+}
+
+.card-user-info{
+    height: 433px;
+    overflow-y: scroll;
+}
+
+.card-address{
+    border-radius: 5px;
+}
+
+.order-code-color {
+    background-color: #fafaf7
+}
+
+.card-body-height{
+
+}
+
+.approveButton{
+    margin-top: 30px;
+    margin-right:55px;
+    float: right;
+}
+
+.notApproveLabel{
+    text-align : center;
+    margin-top: 150px ;
+    font-size: 30px;
+}
+
+.rejected-product-image{
+    height : 130px;
+    width : 220px;
+}
+
+.header .user-role-label {
+    background-color: #222529;
+    padding: 5px;
+    border-radius: 2px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    color: #fdc52c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.textBreak {
+    overflow-wrap: break-word;
+}

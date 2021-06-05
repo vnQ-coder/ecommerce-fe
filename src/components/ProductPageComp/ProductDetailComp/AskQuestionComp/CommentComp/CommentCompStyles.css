@@ -1,0 +1,44 @@
+.comment-comp.comment-reply .comment-avatar {
+    flex: 0 0 auto;
+    width: 40px;
+    margin-right: 10px;
+    padding-top: 14px;
+}
+
+.comment-comp.comment-reply {
+    margin-left: 60px;
+    border-top: none;
+    padding-top: 6px;
+}
+
+.comment-comp .comment-text {
+    background-color: whitesmoke;
+    padding: 8px !important;
+    border-radius: 2px;
+    border: 1px solid #e8e8e8;
+}
+
+.comment-comp .comment-logo {
+    background-color: orange;
+    padding: 8px 10px;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+}
+
+.comment-comp.comment-reply .comment-logo {
+    background-color: #797979 !important;
+}
+
+.comment-comp .comment-meta {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.comment-comp .comment-meta span {
+    font-size: 1rem;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
